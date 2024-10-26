@@ -30,6 +30,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import logo1 from "./logo1.png"
+import xodeum from "./company/xodeum.svg";
+import  BlueBrackets from "./company/blue brackets.png";
+import Avatar from "./3d.png";
+import Lane from "./rt.png";
+import Traffic from "./ad.png";
+
 
 export {
   logo,
@@ -61,4 +67,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  xodeum,
+  BlueBrackets,
+  Avatar,
+  Lane,
+  Traffic,
+
 };

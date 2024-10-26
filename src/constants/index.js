@@ -15,14 +15,16 @@ mongodb,
 git,
 figma,
 docker,
-meta,
-starbucks,
-tesla,
-shopify,
 carrent,
 jobit,
 tripguide,
 threejs,
+xodeum,
+BlueBrackets,
+Avatar,
+Lane,
+Traffic,
+
 } from "../assets";
 
 export const navLinks = [
@@ -50,12 +52,8 @@ const services = [
     icon: mobile,
 },
 {
-    title: "Backend Developer",
+    title: "Python Developer",
     icon: backend,
-},
-{
-    title: "Cloud Practitioner",
-    icon: creator,
 },
 ];
 
@@ -116,50 +114,23 @@ const technologies = [
 
 const experiences = [
 {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Android Developement Intern",
+    company_name: "Blue Brackets",
+    icon: BlueBrackets,
+    iconBg: "white",
+    date: "December 2023 - April 2024",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-},
-{
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-},
-{
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed an inventory management application tailored for housing schemes.",
+        "Implemented features for project creation, plot details, dimensions, and potential buyers.",
+        "Designed a user-friendly interface for employees, enabling drag-and-drop project creation."
     ],
 },
 {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Xodeum",
+    icon: xodeum,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2024 - August 2024",
     points: [
     "Developing and maintaining web applications using React.js and other related technologies.",
     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -170,44 +141,44 @@ const experiences = [
 ];
 
 const testimonials = [
-{
-    testimonial:
-    "I thought it was impossible to make a website as beautiful as our product, but Haram proved me wrong.",
-    name: "Muhammad Taha Mukhtar",
-    designation: "Freelancer",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-},
-{
-    testimonial:
-    "I've never met a web developer who truly cares about their clients' success like haram does.",
-    name: "Hamza Khurshid",
-    designation: "CTO",
-    company: "Xodeum",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-},
-{
-    testimonial:
-    "After haram optimized our app, our traffic increased by 50%. We can't thank him enough!",
-    name: "Imran Rao",
-    designation: "CEO",
-    company: "Blue Brackets",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-},
+// {
+//     testimonial:
+//     "I thought it was impossible to make a website as beautiful as our product, but Haram proved me wrong.",
+//     name: "Muhammad Taha Mukhtar",
+//     designation: "Freelancer",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+// },
+// {
+//     testimonial:
+//     "I've never met a web developer who truly cares about their clients' success like haram does.",
+//     name: "Hamza Khurshid",
+//     designation: "CTO",
+//     company: "Xodeum",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+// },
+// {
+//     testimonial:
+//     "After haram optimized our app, our traffic increased by 50%. We can't thank him enough!",
+//     name: "Imran Rao",
+//     designation: "CEO",
+//     company: "Blue Brackets",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+// },
 ];
 
 const projects = [
 {
-    name: "Otaku Guide",
+    name: "3d Avatar",
     description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Implementing the knowledge of threejs and react-three-fiber to create a 3d avatar with custom animations like typing,falling and controls.",
     tags: [
     {
-        name: "react",
+        name: "react-three-fiber",
         color: "blue-text-gradient",
     },
     {
-        name: "flask",
+        name: " three.js",
         color: "green-text-gradient",
     },
     {
@@ -215,13 +186,13 @@ const projects = [
         color: "pink-text-gradient",
     },
     ],
-    image: carrent,
+    image: Avatar,
     source_code_link: "https://github.com/Haram-Nagra/Otaku-Guide",
 },
 {
     name: "Adaptive Encryption Based on traffic Analysis",
     description:
-    "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Developed adaptive encryption using AES-GCM to ensure data confidentiality with resilient 128-bit encryption processes.",
     tags: [
     {
         name: "react",
@@ -236,7 +207,7 @@ const projects = [
         color: "pink-text-gradient",
     },
     ],
-    image: jobit,
+    image: Traffic,
     source_code_link: "https://github.com/Haram-Nagra/Adaptive-Encryption-Based-on-traffic-analysis",
 },
 {
@@ -253,11 +224,11 @@ const projects = [
         color: "green-text-gradient",
     },
     {
-        name: "css",
+        name: "python",
         color: "pink-text-gradient",
     },
     ],
-    image: tripguide,
+    image: Lane,
     source_code_link: "https://github.com/",
 },
 ];
